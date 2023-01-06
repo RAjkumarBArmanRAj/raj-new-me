@@ -38,3 +38,32 @@
     border: 0;
     margin-bottom: 175px;
 }
+main{
+    margin: 0;
+    max-width: 1080px;
+}
+.person{
+    
+}
+.about{
+    display: flex;
+    margin: 0 100px;
+    align-items: center;
+    text-align: start;
+}
+.about-us{
+    padding: 50px;
+    margin-left: 100px;
+    
+}
+.about-title{
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+float: right;
+}
+.about-decription{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+}
