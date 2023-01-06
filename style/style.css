@@ -1,34 +1,39 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.header{
-    
+
+.header {
+
     background-image: url(/images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: start ;
+    background-position: start;
     background-attachment: local;
 
 }
-.banner{
-    
+
+.banner {
+
     text-align: end;
-   margin: 0 100px;
+    margin: 0 100px;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
     font-size: 50px;
     color: #ffff;
     padding-top: 150px;
 }
-.decription{
+
+.decription {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 20px;
     color: #ffff;
 }
-.btn-primary{
+
+.btn-primary {
     color: aquamarine;
     background: #ffff;
     padding: 12px 20px;
@@ -38,32 +43,60 @@
     border: 0;
     margin-bottom: 175px;
 }
-main{
+
+main {
     margin: 0;
     max-width: 1080px;
 }
-.person{
-    
-}
-.about{
+
+.person {}
+
+.about {
     display: flex;
     margin: 0 100px;
-    align-items: center;
-    text-align: start;
-}
-.about-us{
-    padding: 50px;
-    margin-left: 100px;
+    
     
 }
-.about-title{
-    font-weight: 700;
-font-size: 40px;
-color: #151414;
-float: right;
+
+.about-us {
+    padding: 50px;
+    margin-left: 100px;
+
 }
-.about-decription{
+.ami{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    float: right;
+}
+
+.about-decription {
     font-weight: 400;
-font-size: 16px;
-color: #444343;
+    font-size: 16px;
+    color: #444343;
+}
+/* footer */
+.footer{
+    display: flex;
+    gap:100px;
+    background: #151414;
+    padding: 130px 200px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer .footer-title{
+    text-align: left;
+    color: #fffafa;
+}
+.footer input{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
 }
